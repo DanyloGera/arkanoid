@@ -1,0 +1,46 @@
+* {
+   padding: 0; margin: 0; 
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.callout {
+  position: fixed;
+    width: 50%;
+position: absolute;
+top: 10px;
+    z-index: 5;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: 'Rye', cursive;
+}
+
+.callout-container {
+  padding: 20px 70px 55px 70px;
+  background-color: #ccc;
+  color: black;
+  text-align: center;
+  text-align: justify;
+  font-family: 'Rye', cursive;
+  font-size: 25px;
+}
+
+.closebtn1 {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn1:hover {
+  color: lightgrey;
+}
