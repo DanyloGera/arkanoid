@@ -122,7 +122,7 @@ function ballLeaveScreen() {
     }
     else {
         alert('You lost, game over!');
-        location.reload();
+        window.location.href="https://danylogera.github.io/game-3/";
     }
 }
 function ballHitPaddle(ball, paddle) {
