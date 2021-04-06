@@ -104,7 +104,7 @@ function ballHitBrick(ball, brick) {
     score += 10;
     scoreText.setText('Points: '+score);
     if(score === brickInfo.count.row*brickInfo.count.col*10) {
-        alert('Congratulations! Your score: ' + score);
+        alert('Congratulations! Your score: + ' + score);
         location.reload();
     }
 }
