@@ -105,7 +105,7 @@ function ballHitBrick(ball, brick) {
     scoreText.setText('Points: '+score);
     if(score === brickInfo.count.row*brickInfo.count.col*10) {
         alert('Congratulations! Your score: + ' + score);
-        location.reload();
+        window.location.href="https://danylogera.github.io/game-3/";
     }
 }
 function ballLeaveScreen() {
@@ -122,7 +122,7 @@ function ballLeaveScreen() {
     }
     else {
         alert('You lost, game over!');
-        window.location.href="https://danylogera.github.io/game-3/";
+        location.reload();
     }
 }
 function ballHitPaddle(ball, paddle) {
