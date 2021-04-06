@@ -3,7 +3,7 @@
    padding: 0; margin: 0;
 }
 canvas{
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .container {
   display: flex;
