@@ -21,7 +21,7 @@ function preload() {
     game.stage.backgroundColor = '#CEDCE2';
     game.load.image('paddle', 'img/paddle.png');
     game.load.image('brick', 'img/brick.png');
-    game.load.spritesheet('ball', 'img/wobble.png', 20, 20);WS
+    game.load.spritesheet('ball', 'img/wobble.png', 20, 20);
     game.load.spritesheet('button', 'img/button.png', 120, 40);
 }
 function create() {
