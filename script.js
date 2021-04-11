@@ -1,4 +1,4 @@
-var game = new Phaser.Game(800, 400, Phaser.AUTO, null, {preload: preload, create: create, update: update});
+var game = new Phaser.Game(800, 600, Phaser.AUTO, null, {preload: preload, create: create, update: update});
 
 var ball;
 var paddle;
@@ -15,13 +15,13 @@ var startButton;
 
 function preload() {
 	// handleRemoteImagesOnJSFiddle();
-    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+    // game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     game.scale.pageAlignHorizontally = true;
     game.scale.pageAlignVertically = true;
     game.stage.backgroundColor = '#CEDCE2';
     game.load.image('paddle', 'img/paddle.png');
     game.load.image('brick', 'img/brick.png');
-    game.load.spritesheet('ball', 'img/wobble.png', 20, 20);
+    game.load.spritesheet('ball', 'img/wobble.png', 20, 20);WS
     game.load.spritesheet('button', 'img/button.png', 120, 40);
 }
 function create() {
