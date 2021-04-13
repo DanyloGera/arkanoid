@@ -43,7 +43,7 @@ function create() {
 
     initBricks();
 
-    textStyle = { font: '12pt Fredoka One', fill: '#2D79AF' };
+    textStyle = { font: '16pt DotGothic16', color: '#2D79AF' };
     scoreText = game.add.text(5, 5, 'Points: 0', textStyle);
     livesText = game.add.text(game.world.width-5, 5, 'Lives: '+lives, textStyle);
     livesText.anchor.set(1,0);
