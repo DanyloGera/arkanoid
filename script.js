@@ -15,7 +15,7 @@ var startButton;
 
 function preload() {
 	// handleRemoteImagesOnJSFiddle();
-    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+    // game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     game.scale.pageAlignHorizontally = true;
     game.scale.pageAlignVertically = true;
     game.stage.backgroundColor = '#CEDCE2';
