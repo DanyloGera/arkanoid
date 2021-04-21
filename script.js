@@ -15,9 +15,9 @@ var startButton;
 
 function preload() {
 	// handleRemoteImagesOnJSFiddle();
-    // game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-    // game.scale.pageAlignHorizontally = true;
-    // game.scale.pageAlignVertically = true;
+    game.scale.scaleMode = Phaser.ScaleManager.RESIZE;
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
     game.stage.backgroundColor = '#CEDCE2';
     game.load.image('paddle', 'img/paddle.png');
     game.load.image('brick', 'img/brick.png');
