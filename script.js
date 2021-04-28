@@ -14,7 +14,7 @@ var playing = false;
 var startButton;
 
 function preload() {
-    game.load.image('background', 'background.png');
+    game.load.image('background', 'img/background.png');
 	// handleRemoteImagesOnJSFiddle();
     // game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     // game.scale.pageAlignHorizontally = true;
