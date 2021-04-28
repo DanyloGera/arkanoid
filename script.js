@@ -79,7 +79,7 @@ function initBricks() {
             top: 50,
             left: 60
         },
-        padding: 10
+        padding: 15
     }
     bricks = game.add.group();
     for(c=0; c<brickInfo.count.col; c++) {
@@ -113,7 +113,7 @@ function ballLeaveScreen() {
     if(lives) {
         livesText.setText('Lives: '+lives);
         lifeLostText.visible = true;
-        ball.reset(game.world.width*0.5, game.world.height-25);
+        ball.reset(game.world.width*0.5, game.world.height-40);
         paddle.reset(game.world.width*0.5, game.world.height-5);
         game.input.onDown.addOnce(function(){
             lifeLostText.visible = false;
