@@ -95,7 +95,7 @@ function initBricks() {
     }
 }
 function ballHitBrick(ball, brick) {
-    var killTween = game.add.tween(brick.scale);
+    var killTween = game.add.tween(brick);
     killTween.to({x:0,y:0}, 200, Phaser.Easing.Linear.None);
     killTween.onComplete.addOnce(function(){
         brick.kill();
