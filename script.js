@@ -36,7 +36,7 @@ function create() {
     ball.checkWorldBounds = true;
     ball.events.onOutOfBounds.add(ballLeaveScreen, this);
 
-    paddle = game.add.sprite(game.world.width*0.5, game.world.height-5, 'paddle');
+    paddle = game.add.sprite(game.world.width*0.5, game.world.height-10, 'paddle');
     paddle.anchor.set(0.5,1);
     game.physics.enable(paddle, Phaser.Physics.ARCADE);
     paddle.body.immovable = true;
@@ -114,7 +114,7 @@ function ballLeaveScreen() {
         livesText.setText('Lives: '+lives);
         lifeLostText.visible = true;
         ball.reset(game.world.width*0.5, game.world.height-40);
-        paddle.reset(game.world.width*0.5, game.world.height-5);
+        paddle.reset(game.world.width*0.5, game.world.height-10);
         game.input.onDown.addOnce(function(){
             lifeLostText.visible = false;
             ball.body.velocity.set(200, -200);
