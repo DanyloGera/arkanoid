@@ -69,8 +69,8 @@ function update() {
 }
 function initBricks() {
     brickInfo = {
-        width: 90,
-        height: 35,
+        width: 95,
+        height: 40,
         count: {
             row: 7,
             col: 3
