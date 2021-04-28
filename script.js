@@ -79,7 +79,7 @@ function initBricks() {
             top: 50,
             left: 60
         },
-        padding: 20
+        padding: 15
     }
     bricks = game.add.group();
     for(c=0; c<brickInfo.count.col; c++) {
