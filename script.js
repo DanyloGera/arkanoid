@@ -22,7 +22,7 @@ function preload() {
     game.load.image('paddle', 'img/paddle.png');
     game.load.image('brick', 'img/brick.png');
     game.load.spritesheet('ball', 'img/wobble.png', 30, 30);
-    game.load.spritesheet('button', 'img/button.png', 160, 50);
+    game.load.spritesheet('button', 'img/button.png', 160, 55);
 }
 function create() {
     game.physics.startSystem(Phaser.Physics.ARCADE);
