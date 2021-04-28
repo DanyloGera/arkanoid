@@ -58,13 +58,13 @@ function update() {
     game.physics.arcade.collide(ball, paddle, ballHitPaddle);
     game.physics.arcade.collide(ball, bricks, ballHitBrick);
     paddle.x = game.input.x;
-    if (paddle.x < 38)
+    if (paddle.x < 57)
     {
-        paddle.x = 38;
+        paddle.x = 57;
     }
-    else if (paddle.x > game.width - 38)
+    else if (paddle.x > game.width - 57)
     {
-        paddle.x = game.width - 38;
+        paddle.x = game.width - 57;
     }
 }
 function initBricks() {
