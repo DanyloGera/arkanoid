@@ -77,7 +77,7 @@ function initBricks() {
         },
         offset: {
             top: 50,
-            left: 60
+            left: 70
         },
         padding: 10
     }
