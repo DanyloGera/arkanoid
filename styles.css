@@ -37,12 +37,12 @@ top: 10px;
 }
 
 .callout-header {
-  padding: 25px 15px;
-  background: #555;
-  font-size: 40px;
-  color: white;
+  padding: 20px 70px 55px 70px;
+  background-color: #ccc;
+  color: black;
   text-align: center;
-  font-family: 'Rye', cursive;
+  text-align: justify;
+  font-size: 26pt;
 }
 
 .callout-container {
