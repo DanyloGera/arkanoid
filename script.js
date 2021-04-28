@@ -14,7 +14,6 @@ var playing = false;
 var startButton;
 
 function preload() {
-    game.load.image('background', 'img/background.png');
 	// handleRemoteImagesOnJSFiddle();
     // game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     // game.scale.pageAlignHorizontally = true;
@@ -26,7 +25,6 @@ function preload() {
     game.load.spritesheet('button', 'img/button.png', 160, 56);
 }
 function create() {
-  game.add.image(0, 0, 'background');
     game.physics.startSystem(Phaser.Physics.ARCADE);
     game.physics.arcade.checkCollision.down = false;
     ball = game.add.sprite(game.world.width*0.5, game.world.height-50, 'ball');
