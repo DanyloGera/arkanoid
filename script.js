@@ -70,7 +70,7 @@ function update() {
 function initBricks() {
     brickInfo = {
         width: 100,
-        height: 70,
+        height: 50,
         count: {
             row: 7,
             col: 3
