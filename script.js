@@ -131,7 +131,7 @@ function ballHitPaddle(ball, paddle) {
 }
 function startGame() {
     startButton.destroy();
-    ball.body.velocity.set(150, -150);
+    ball.body.velocity.set(200, -200);
     playing = true;
 }
 
