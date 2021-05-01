@@ -117,7 +117,7 @@ function ballLeaveScreen() {
         paddle.reset(game.world.width*0.5, game.world.height-10);
         game.input.onDown.addOnce(function(){
             lifeLostText.visible = false;
-            ball.body.velocity.set(250, -250);
+            ball.body.velocity.set(300, -300);
         }, this);
     }
     else {
@@ -131,7 +131,7 @@ function ballHitPaddle(ball, paddle) {
 }
 function startGame() {
     startButton.destroy();
-    ball.body.velocity.set(250, -250);
+    ball.body.velocity.set(300, -300);
     playing = true;
 }
 
