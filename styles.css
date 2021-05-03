@@ -1,13 +1,11 @@
 body{
 background-image: linear-gradient(to bottom, #87cdc5, #73c8c9, #5ec2cd, #48bcd3, #33b5d9, #25add9, #1ba5d9, #1a9dd8, #1593d1, #1389ca, #1580c3, #1876bb);
 }
-* {
-   padding: 0; margin: 0;
-}
+
 canvas {
    margin: auto;
    box-shadow: 0 0  20px 10px #023F6B;
-   height:100%;
+  
    /* border-radius: 10px; */
  }
  .btn-back-wrapper {
