@@ -102,7 +102,7 @@ function ballHitBrick(ball, brick) {
     }, this);
     killTween.start();
     score += 10;
-    scoreText.setText('Points: '+score);
+    scoreText.setText('Bonus: '+score);
     if(score === brickInfo.count.row*brickInfo.count.col*10) {
         alert('Congratulations! Your score: + ' + score);
         window.location.href="https://danylogera.github.io/game-5/";
