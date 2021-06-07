@@ -40,7 +40,7 @@ canvas {
    height: 12%;
    width: 100%;
    position: absolute;
-   top: 10%;
+   top: 20%;
  }
 .container {
   display: flex;
