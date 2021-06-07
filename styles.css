@@ -13,6 +13,16 @@ canvas {
      max-height: 80%;
    }
  }
+ .row1{
+   display: flex;
+ justify-content: flex-start;
+
+ }
+.row1-wrap{
+   position: absolute;
+     height: 95%;
+   width: 20%;
+ }
  .btn-back {
    background-color: #FEC75E;
        padding: 20px;
@@ -27,7 +37,7 @@ canvas {
    display: flex;
    justify-content: center;
    height: 12%;
-   width: 20%;
+   width: 100%;
    position: absolute;
    top: 10%;
  }
