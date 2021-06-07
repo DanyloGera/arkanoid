@@ -3,25 +3,34 @@ background-image: linear-gradient(to bottom, #87cdc5, #73c8c9, #5ec2cd, #48bcd3,
 }
 
 canvas {
-   
+
    box-shadow: 0 0  20px 10px #023F6B;
 
    /* border-radius: 10px; */
  }
+ @media (min-height: 800px) {
+    .btn-back {
+     max-height: 80%;
+   }
+ }
+ .btn-back {
+   background-color: #FEC75E;
+       padding: 20px;
+       border: 2px solid #000;
+       border-radius: 10px;
+       font-family: 'DotGothic16', sans-serif;
+       font-size: 10pt;
+       max-width: 90%;
+       height: 100%;
+ }
  .btn-back-wrapper {
-  display: flex;
-  justify-content: flex-start;
-}
-.btn-back {
-  position: absolute;
-  top: 50px;
-  background-color: #FEC75E;
-  padding: 20px;
-  border: 2px solid #000;
-  border-radius: 10px;
-  font-family: 'DotGothic16', sans-serif;
-  font-size: 15px;
-}
+   display: flex;
+   justify-content: center;
+   height: 12%;
+   width: 20%;
+   position: absolute;
+   top: 1%
+ }
 .container {
   display: flex;
   justify-content: center;
