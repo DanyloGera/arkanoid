@@ -12,6 +12,12 @@ canvas {
     .btn-back {
      max-height: 80%;
    }
+   .btn-back-wrapper{
+     top: 20%;
+   }
+   .alert{
+     top: 40%;
+   }
  }
  .row1{
    display: flex;
