@@ -13,9 +13,11 @@ canvas {
      max-height: 80%;
    }
    .btn-back-wrapper{
+     position: absolute;
      top: 20%;
    }
    .alert{
+     position: absolute;
      top: 40%;
    }
  }
