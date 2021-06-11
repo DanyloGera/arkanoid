@@ -75,12 +75,12 @@ function update() {
 
     if (cursors.left.isDown) {
   paddle.body.velocity.x = -300;
-  paddle.scale.x = - 1;
+
 }
 // is the right cursor key pressed?
 else if (cursors.right.isDown) {
   paddle.body.velocity.x = 300;
-  paddle.scale.x = 1;
+  
 }
 }
 function initBricks() {
