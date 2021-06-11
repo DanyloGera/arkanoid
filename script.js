@@ -12,6 +12,7 @@ var livesText;
 var lifeLostText;
 var playing = false;
 var startButton;
+var cursors;
 
 function preload() {
   game.scale.scaleMode = Phaser.ScaleManager.USER_SCALE;
@@ -54,6 +55,8 @@ function create() {
 
     startButton = game.add.button(game.world.width*0.5, game.world.height*0.5, 'button', startGame, this, 1, 0, 2);
     startButton.anchor.set(0.5);
+
+      cursors = game.input.keyboard.createCursorKeys();
 }
 function update() {
     game.physics.arcade.collide(ball, paddle, ballHitPaddle);
@@ -67,6 +70,16 @@ function update() {
     {
         paddle.x = game.width - 57;
     }
+
+    if (cursors.left.isDown) {
+  paddle.body.velocity.x = -300;
+  paddle.scale.x = - 1;
+}
+// is the right cursor key pressed?
+else if (cursors.right.isDown) {
+  paddle.body.velocity.x = 300;
+  paddle.scale.x = 1;
+}
 }
 function initBricks() {
     brickInfo = {
