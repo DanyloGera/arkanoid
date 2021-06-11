@@ -85,7 +85,7 @@ else if (cursors.right.isDown) {
 
 }
 else {
-    player.animations.stop();
+      paddle.animations.stop();
   }
 }
 function initBricks() {
