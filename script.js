@@ -72,12 +72,15 @@ function update() {
     }
 
     if (cursors.left.isDown) {
+  paddle.animations.play('', 10, true);
   paddle.body.velocity.x = -300;
-  
+  paddle.scale.x = - 1;
 }
 // is the right cursor key pressed?
 else if (cursors.right.isDown) {
+  paddle.animations.play('', 10, true);
   paddle.body.velocity.x = 300;
+  paddle.scale.x = 1;
 }
 }
 function initBricks() {
