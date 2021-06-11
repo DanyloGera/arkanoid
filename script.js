@@ -74,14 +74,19 @@ function update() {
     }
 
     if (cursors.left.isDown) {
+      paddle.animations.play('', 10, true);
   paddle.body.velocity.x = -300;
 
 }
 // is the right cursor key pressed?
 else if (cursors.right.isDown) {
   paddle.body.velocity.x = 300;
-  
+  paddle.animations.play('', 10, true);
+
 }
+else {
+    player.animations.stop();
+  }
 }
 function initBricks() {
     brickInfo = {
