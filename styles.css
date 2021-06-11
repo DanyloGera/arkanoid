@@ -56,9 +56,9 @@ canvas {
 }
 
 .callout-header {
-  padding: 25px 15px;
+  padding: 25px 0;
   background: #555;
-  font-size: 40px;
+  font-size: 27pt;
   color: white;
   text-align: center
 }
@@ -69,7 +69,7 @@ canvas {
   color: black;
   text-align: center;
   text-align: justify;
-  font-size: 29pt;
+  font-size: 26pt;
 }
 
 .closebtn1 {
