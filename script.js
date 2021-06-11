@@ -61,6 +61,8 @@ function create() {
 function update() {
     game.physics.arcade.collide(ball, paddle, ballHitPaddle);
     game.physics.arcade.collide(ball, bricks, ballHitBrick);
+    paddle.body.velocity.x = 0;
+
     paddle.x = game.input.x;
     if (paddle.x < 57)
     {
