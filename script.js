@@ -118,7 +118,7 @@ function ballLeaveScreen() {
         paddle.reset(game.world.width*0.5, game.world.height-10);
         game.input.onDown.addOnce(function(){
             lifeLostText.visible = false;
-            ball.body.velocity.set(500, -500);
+            ball.body.velocity.set(400, -400);
         }, this);
     }
     else {
@@ -128,10 +128,10 @@ function ballLeaveScreen() {
 }
 function ballHitPaddle(ball, paddle) {
     ball.animations.play('wobble');
-    ball.body.velocity.x = -5*(paddle.x-ball.x);
+    ball.body.velocity.x = -1*5*(paddle.x-ball.x);
 }
 function startGame() {
     startButton.destroy();
-    ball.body.velocity.set(500, -500);
+    ball.body.velocity.set(400, -400);
     playing = true;
 }
